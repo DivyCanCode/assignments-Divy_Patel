@@ -1,0 +1,66 @@
+/* Universal selector */
+*{
+    background-image: url('/HTML/Assignment 8/bg_imgae/colorful-sky-clouds-3840x2160-23267.png');
+}
+
+/* Custom font */
+@font-face{
+    font-family: 'Myfont';
+    src: url('/HTML/Assignment 8/Fonts/Oswald/static/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Bitcount";
+    src: url('/HTML/Assignment 8/Fonts/Bitcount_Grid_Double_Ink/BitcountGridDoubleInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf') format("truetype");
+}
+
+/* Paragraph with custom font styling */
+#font-ch{
+    font-family: 'Myfont', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Text decoration effects */
+#text-decor{
+    color: red;
+    letter-spacing: 10px;
+    text-decoration: overline green;
+    text-shadow: 2px 2px 8px green;
+    padding: 10px;
+}
+
+/* Overflow visible */
+.class1{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: visible;
+}
+
+/* Overflow hidden */
+.class2{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+/* Overflow scroll */
+.class3{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+/* Overflow auto */
+.class4{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}

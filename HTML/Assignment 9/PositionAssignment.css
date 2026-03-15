@@ -1,0 +1,81 @@
+body{
+    background-image: url('colorful-sky-clouds-3840x2160-23267.png');
+    background-size: 33.33%;
+}
+
+/* Box 1 */
+#box1{
+    height:150px;
+    width:150px;
+    background-color:aqua;
+    position:absolute;
+    left:900px;
+    top:20px;
+    transform:skew(35deg);
+    font-size:30px;
+}
+
+/* Box 2 */
+#box2{
+    height:150px;
+    width:100px;
+    background-color:blue;
+    position:absolute;
+    left:900px;
+    top:200px;
+    font-size:x-large;
+    transform:rotate(90deg);
+    z-index:2;
+}
+
+/* Box 3 */
+#box3{
+    height:120px;
+    width:250px;
+    background-color:yellow;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+
+/* Hover effect */
+#box3:hover{
+    transform:scale(0.70);
+    background-color:rgb(15,156,32);
+}
+
+/* Box 4 */
+#box4{
+    height:100px;
+    width:50px;
+    background-color:rgb(4,196,26);
+    position:static;
+    font-size:x-large;
+}
+
+/* Box 5 */
+#box5{
+    height:200px;
+    width:200px;
+    background-color:rgb(101,12,202);
+    position:sticky;
+    left:250px;
+    top:20px;
+    font-size:x-large;
+}
+
+/* Box 6 */
+#box6{
+    height:100px;
+    width:100px;
+    background-color:rgb(168,113,42);
+    position:absolute;
+    left:950px;
+    top:250px;
+}
+
+/* Hover effect */
+#box6:hover{
+    z-index:3;
+    background-color:aqua;
+}
