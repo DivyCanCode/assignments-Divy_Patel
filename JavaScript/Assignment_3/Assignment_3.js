@@ -74,8 +74,10 @@ const order = [
     ]
   }
 ];
+console.log("Orders:");
+console.log(JSON.stringify(order, null, 2));
 
-console.log(order.orderId);
+
 
 const total = order.map(orders => {
 
@@ -96,4 +98,5 @@ const total = order.map(orders => {
 
 });
 
-console.log(total);
+console.log("Result:");
+console.log(JSON.stringify(total, null, 2));
